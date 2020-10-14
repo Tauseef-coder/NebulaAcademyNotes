@@ -5,7 +5,7 @@
 //console.log(Tauseef);
 //let Gordon ='Tauseef\n Gordon'
 //console.log(Gordon)
-// let expamble1 = "nebula"
+//let expamble1 = "nebula"
 //console.log(example1);
 //console.log(example[0]);
 //console.log(example[1]);
