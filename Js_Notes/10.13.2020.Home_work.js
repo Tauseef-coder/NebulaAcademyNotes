@@ -17,3 +17,5 @@ console.log(today[0]);
 console.log(today[4]);
 let website = "welcome to my website"
 console.log (website[website.length-7]);
+//let W= welcome world! tasuseef'
+//console.log(welocmee worlf !."welocme world"));
