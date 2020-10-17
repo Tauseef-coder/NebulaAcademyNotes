@@ -9,8 +9,10 @@ console.log (words.split(","));
 console.log (words.length);
 console.log (words[words.length - 1]);
 console.log (words [5]);
-console.log (words.replace('a','-'));
+console.log (words.replace(/a/g,'-'));
 console.log (words.toUpperCase());
 console.log (words.toLocaleLowerCase());
+
 let flavor ="chocolate"
 console.log = (flavor);
+console.log =(`chocolate` +flavor);
