@@ -48,3 +48,18 @@ console.log(theType('hello'));
 console.log(theType(7));
 console.log(theType(true));
 // This function will return the type of any argument passed into this func
+
+// problem
+let first = 'Tauseef'
+let last ='Gordon'
+function myInitials (firstName , lastName){
+        return firstNamre[0] +lastName[0]
+    
+}
+console.log(myInitials(first,last));
+// create a fucntion 
+
+let counties = ['Mexico', 'Canada', 'Italy', 'United Kingdom', 'Thailand', 'India']
+
+fucntino lastElemennt ()
+let
