@@ -52,6 +52,10 @@ console.log (fruits2);
 //var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
 let names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
 //Using the array above, create a fucntion that returns the string, 'Hello Maurice and Chelsea!'
-console.log(names('Hello'));
-console.log (names[Mauriece]);
+//console.log(names('Hello'));
+//console.log (names[Mauriece]);
 /////
+function name (girlsBoys){
+    console.log(girlsBoys)
+    return `happy Monday${girlsBoys}`
+}
