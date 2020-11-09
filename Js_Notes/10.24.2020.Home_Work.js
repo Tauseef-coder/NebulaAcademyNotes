@@ -34,8 +34,13 @@ let fruits =['apple','oragne','peach','lemon','plum','grape','watermelon'];
 
 console.log(fruits[4]);
 //Create a function that returns only the last element in the fruits array
+function lastElementOfFruits(watermelon){
+    return watermelon[watermelon.length -1 ]
 
-console.log(fruits[6]);
+}
+
+console.log (lastElementOfFruits(fruits), 'last Elempent is Watermelon');
+//console.log(fruits[6]);
 //Create a function that returns [peach', 'lemon', 'plum', 'grape']
 console.log (fruits[2]);
 console.log (fruits[3]);
@@ -58,4 +63,4 @@ let names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Edd
 function name (girlsBoys){
     console.log(girlsBoys)
     return `happy Monday${girlsBoys}`
-}
+}/// neeeds to be completed  ///
