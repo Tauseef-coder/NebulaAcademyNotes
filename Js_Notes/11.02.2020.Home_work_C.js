@@ -18,7 +18,7 @@ Array.isArray([]);
 
      }
      }
- }
+ 
 function number(7){
     return '(7) is an even number'
 }

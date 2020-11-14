@@ -1,4 +1,5 @@
 
+// ruff copy //
 let numArray = [9, 12, 3, 0, 8, 50, 101, 8, 4, 15, 3, 2]
 //Problem # 1
 //Using the array above, create a function that loops through the array and return a new array with only the odd numbers
@@ -78,3 +79,4 @@ for (let i = 0 i number.lenght; i++){
 console.log(addNums(array));
 //Problem # 7
 //Create another function that adds the numbers in the array that are NOT divisible by 3 and return the total
+/// 
