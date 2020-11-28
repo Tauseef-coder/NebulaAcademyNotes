@@ -3,10 +3,10 @@
 let numArray = [9, 12, 3, 0, 8, 50, 101, 8, 4, 15, 3, 2]
 //Problem # 1
 //Using the array above, create a function that loops through the array and return a new array with only the odd numbers
-functionArray addNums(numArr){
+function addNums(numArr){
     let total =0;
 
-for (let i = 0 i number.lenght; i++){
+for (let i = 0; i < number.lenght; i++){
     toatoal=+numArr[i]
 
 } return total 
@@ -14,10 +14,10 @@ for (let i = 0 i number.lenght; i++){
 console.log(addNums(array));
 //Problem # 2
 //Using the array above, loop through the array and COUNT the amount of even numbers that are in the array
-functionArray addNums(numArr){
+function addNums(numArr){
     let total =0;
 
-for (let i = 0 i number.lenght; i++){
+for (let i = 0 ; i < number.lenght; i++){
     toatoal=+numArr[i]
 
 } return total 
@@ -25,10 +25,10 @@ for (let i = 0 i number.lenght; i++){
 console.log(addNums(array));
 //Problem # 3
 //Using the array above, create a function that loops through the array and adds every number that is inside the array. Return the total.
-functionArray addNums(numArr){
+function addNums(numArr){
     let total =0;
 
-for (let i = 0 i number.lenght; i++){
+for (let i = 0; i< number.lenght; i++){
     toatoal=+numArr[i]
 
 } return total 
@@ -42,7 +42,7 @@ console.log(addNums(array));
 //Examples for problem #4 what the function invocation could look like:
 //doesItInclude([40, 7, 8, 23, 43], 23) -> true
 //doesItInclude(['kale', 'spinach', 'arugula'], 'iceberg') -> false
-functionArray addNums(numArr){
+function addNums(numArr){
     let total =0;
 
 for (let i = 0 i number.lenght; i++){
@@ -55,10 +55,10 @@ console.log(addNums(array));
 //Problem # 5
 //Create a function that accepts an array.
 //This function will return a new array with the elements in reverse order
-functionArray addNums(numArr){
+function addNums(numArr){
     let total =0;
 
-for (let i = 0 i number.lenght; i++){
+for (let i = 0; i< number.lenght; i++){
     toatoal=+numArr[i]
 
 } return total 
@@ -68,7 +68,7 @@ console.log(addNums(array));
 //Problem # 6
 //Create a function that takes in a array of numbers.
 //This function will return a new array with number that are NOT divisible by 3
-functionArray addNums(numArr){
+function addNums(numArr){
     let total =0;
 
 for (let i = 0 i number.lenght; i++){
