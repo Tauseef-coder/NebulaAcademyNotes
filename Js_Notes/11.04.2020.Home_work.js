@@ -18,7 +18,7 @@ function noPulp(orangeJuice){
 }
 console.log(noPulp(50));
 //IF it is a string, return the string passed in as the argument
-console.lg (noPulp('hello'));
+console.log (noPulp('hello'));
 //IF it is a number, return the number passed in as the argument
 console.log(noPulp(true));
 //IF it is a boolean, return the boolean passed in as the argument
@@ -33,7 +33,7 @@ function tropicana(num1, num2){
     return 
 }
 tropicana(10,25);
-console.log (num1,num2);
+//
 //IF both of the numbers passed into the function as arguments are greater than 50, then return num1*num2
 if (num1 > 50,num2 >50 ){
     return num1*num2
@@ -46,7 +46,7 @@ if (num1 < 50 + num2 < 50);{
 console.log (num1+num2);
 
 //IF one of the numbers is greater than 50 and the other is less than 50, divide the two numbers: return num1/num2
-if num1 > 50 ,num2 <50{
+if (num1 > 50 ,num2 <50);{
     return num1/num2
 }
 //Problem #3
@@ -54,7 +54,7 @@ if num1 > 50 ,num2 <50{
 ///Create a function that that takes in 2 parameters that are numbers.
 function remainder (num1, num2){
     let remainder =num1 % num2
-    if (num1/num2 ===1`the remainder if ${num1} divided by ${num2} is ${remainder}`
+    if (num1/num2 ===1`the remainder if ${num1} divided by ${num2} is ${remainder}`)
     return 
 
     ////the remainder if $(num1) divided by (num2) is (remainder)100'
@@ -91,6 +91,5 @@ germanCar.push('opel');
 germanCar();
 //IF the length of the array is even, remove the last element of the array, add a new element at the beginning of the array and return the new array
 
-//IF the length of the array is od, remove the first element of the array, add a new element to the end of the array and return the new array
-if lenght
-germanCar.shift()
+//IF the length of the array is od, remove the first element of the array, add a new element to the end of the array and return the new array///
+}git a
