@@ -68,7 +68,7 @@ function iterateArrays (array){
         for (let i = 0; i < array.length; i++){
              let full = array [i]
              if (array.isarray(full)){
-                 for(let j = 0; < full.length; j++){
+                 for(let j = 0; j < full.length; j++){
                     let nest = full[j]
                     console.log(nest)
              }
