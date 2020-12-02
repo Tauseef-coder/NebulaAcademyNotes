@@ -54,3 +54,4 @@ function positiveSum(arr) {
     }
    return sum;
    }//You have passed all of the tests! :)
+   console.log('working');
