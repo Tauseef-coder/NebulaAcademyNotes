@@ -33,7 +33,11 @@ function maxGap (numbers){
 }//You have passed all of the tests! :)
 //Maximum gap
 //Problem #3
-//Nth smallest element
+//Given an array/list [] of integers , Find the Nth smallest element in this array of integers
+function nthSmallest(arr, pos){// 
+  let answer = arr.sort((a,b) => a-b)
+   return answer[pos -1]
+}//You have passed all of the tests! :)
 
 //Problem #4
 //repeatStr
@@ -46,3 +50,17 @@ function repeatStr (n, s) {
 function fakeBin(num){
     return num.split('').map(a => (a>=5) ?'1' : '0').join('')
     }//You have passed all of the tests! :)
+
+
+
+    //////function fakeBin(num){
+  //let newStr=''
+  //for (let i = 0; i< num.length; i++){
+    //if (Number(num[i]) >=5){
+    //  newNum+=1
+    //}
+   // else{newNum+='0'}
+  //}
+ // return newNum
+//return num.split('').map(a => (a>=5) ?'1' : '0').join('')
+//}

@@ -1,4 +1,7 @@
-// 
+// //11.02.20 Read Chapter 4
+//Due today at 5:00 PM
+//Instructions
+//Please read Eloquesnt JavaScript Chapter 4!
 //Q1 given the varaible 
 let string ='Nebula Academy'
 /// create a function that checks to see if the letter 'a' exists in the string - if it does exist, retun the string : "the letter a exists in the string )string"

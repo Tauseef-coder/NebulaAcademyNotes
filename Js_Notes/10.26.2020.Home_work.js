@@ -49,7 +49,15 @@ console.log(theType(7));
 console.log(theType(true));
 // This function will return the type of any argument passed into this func
 
-// problem
+
+// Problem #5
+// Create a function called isItArray that takes in one parameter called: arrayChecker
+// This function returns whether the argument passed into this function is an array or not (the function should evaluate to either true or false)
+
+
+// Problem #7
+// Create a function called myInitials that takes in two parameters: firstName and lastName
+// This function returns the initials of the first and last name
 let first = 'Tauseef'
 let last ='Gordon'
 function myInitials (firstName , lastName){
@@ -57,8 +65,9 @@ function myInitials (firstName , lastName){
     
 }
 console.log(myInitials(first,last));
-// create a fucntion 
 
+// Problem #10
+// Using this array: let counties = ['Mexico', 'Canada', 'Italy', 'United Kingdom', 'Thailand', 'India']
 let counties = ['Mexico', 'Canada', 'Italy', 'United Kingdom', 'Thailand', 'India']
 
 fucntino lastElemennt ()
