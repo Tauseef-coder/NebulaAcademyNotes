@@ -1,3 +1,4 @@
+//1
 //Nathan loves cycling.
 //Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
 //You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value
@@ -8,7 +9,7 @@ function litres(time) {
   // for each hour 
   return Math.floor(time /2);
 }
-
+//2
 //It's the academic year's end, fateful moment of your school report. The averages must be calculated. All the students come to you and entreat you to calculate their average for them. Easy ! You just need to write a script.
 //Return the average of the given array rounded down to its nearest integer.
 //The array will never be empty.
@@ -23,24 +24,26 @@ function getAverage(marks){
 }
 
 
+//3Gravity Flip
+///function flip(a){
+  ///return a.reverse(); 
+///}
 
-function flip(a){
-  return a.reverse(); 
-}
-
-
+//4 reversed word
 //reverseWords("The greatest victory is that which requires no battle")
 
 
-
-///function reverseWords(str){
-  
-  let array = str.replace(' ', ',').split(',')
-  let rev = array.reverse()
-//    rev.splice(',');
-  return rev.join()
- // reverse those words
+function reverseWords(str){
+  return str.split(" ").reverse().join(" "); // reverse those words
 }
+///5 Are You Playing Banjo?
+
+
+///6 Summation
+
+
+
+//7
 //Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
 
 function invert(array) {
