@@ -4,7 +4,7 @@
 // Once all characters are successfully logged, return the string, 'Done!'
 function functionLoops(tauseef){
     
-    for (let i; i = 0; <  functionLoops.length - 1 ; i++){
+    for (let  i = 0; i <  functionLoops.length - 1 ; i++){
         console.log(tauseef.lenght[i])
 
         return "done!"
@@ -17,8 +17,8 @@ console.log (functionLoops('tauseef'));
 // Create a function that takes in a number as a parameter.
 // This function will log from 1- any number passed in this function as an argument
 // After all numbers are successfully logged, return the string, 'Done!'
-funnction functionNum(num3){
-    for (i =1; num3.length; i++){
+function functionNum(num3){
+    for (i = 1; num3.length; i++){
         return "done!"
 
     }
@@ -52,7 +52,7 @@ function stringFunction(indication){
 // After the even numbers are logged, return the string, 'Done!'
 let num=[1,2,3,4,5,6,7,8,9,10]
 function logFunction(num){
-    for (let i=1 ,num.lenght; i+2){
+    for (let i=1; i < num.lenght; i+2){
         console.log(num(i))
     }
 
