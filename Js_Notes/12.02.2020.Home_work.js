@@ -13,9 +13,10 @@ function firstNonConsecutive(arr) {
 //https://www.codewars.com/kata/5a2b703dc5e2845c0900005a
 
 function isDivideBy(number, a, b) {
-    return number % 2 == b;
-    // good luck
-  }
+  return [a,b].every (i=> number %i ===0)
+  console.log()
+  // good luck
+}//Good Job! You may take your time to refactor/comment your solution. 
 
 
   ////
@@ -33,6 +34,21 @@ function isDivideBy(number, a, b) {
 //Check the exam
 //https://www.codewars.com/kata/5a3dd29055519e23ec000074
   
+function checkExam(array1, array2) {
+  let score = 0;
+   for (i = 0; i < array1.length; i++){
+     if(array1[i].charAt(0) == array2[i].charAt(0)){
+       score+=4
+     } else if(array2[i].charAt(0)){
+       score-=1       }
+   }
+    if (score < 0){
+      return 0
+    }
+    return score
+  }
+//You have passed all of the tests! :)
+//Excellent! You may take your time to refactor/comment your solution
 
 function checkExam(array1, array2) {
     // good luck
