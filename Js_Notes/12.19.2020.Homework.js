@@ -5,8 +5,11 @@
 
 function between(a, b) {
     // your code here
-    for(var array = []; a <= b;a++) array.push(a)
-    return array
+    let arr=[]
+    for (let i = a; i , <= b; i++){
+        arr.push(i)
+    }
+    return arr
   }
 
 
@@ -15,9 +18,9 @@ function between(a, b) {
 // https://www.codewars.com/kata/56598d8076ee7a0759000087
 
 function calculateTip(amount, rating) {
-    const raingName = rating.toUpperCase();
+    let x = rating.toUpperCase();
     
-    switch (raingName) {
+    switch (x) {
         case "EXCELLENT":
           return Math.ceil(amount * 0.2);
         
@@ -43,18 +46,13 @@ function calculateTip(amount, rating) {
 
 // https://www.codewars.com/kata/5b4e779c578c6a898e0005c5
 
-function drawStairs(n) {
-    let cnt = 0;
-    let result = '';
-    while(n > cnt){
-      result += ' '.repeat(cnt) + 'I';
-      cnt++;
-      if(n > cnt) result += '\n';
+function drawStairs(n){
+    let result = [];
+    for (let i = 0; i < n ;i ++){
+        result [i] = `${' ' .repeat(i)}I`
     }
-    return result;
+    return result.join('\n')
 }
- 
-
 // Remove String Spaces
 
 // https://www.codewars.com/kata/57eae20f5500ad98e50002c5/train/javascript
@@ -69,7 +67,7 @@ function noSpace(x){
   }
   
  
-
+return x.split(''). join('')
 // LeetCode Problem:
 
  

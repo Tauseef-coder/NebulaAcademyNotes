@@ -40,17 +40,26 @@ function findNeedle(haystack) {
 
 // https://www.codewars.com/kata/576bb71bbbcf0951d5000044
 
+
+
 function countPositivesSumNegatives(input) {
-    if(input == null || input.length == 0) return [];
-    var p = 0,n = 0;
-    input.forEach((x) => x > 0 ? p++ : n += x);
-    return [p,n];;
+    if(input == null || input.length == 0) 
+      return [];
+        let p = 0
+        let n = 0;
+          input.forEach((x) => x > 0 ? p++ : n += x);
+            return [p,n];;
 }
  
 
 // Remove duplicate
 
 // https://www.codewars.com/kata/57a5b0dfcf1fa526bb000118/train/javascript
+function distinct(a) {
+    return [...new Set(a)];
+  }
+  
+  
 
 // My work
 // Points
