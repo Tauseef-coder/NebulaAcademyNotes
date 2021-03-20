@@ -44,6 +44,23 @@ function solve(arr){
 //Problem #3
 //Life Path Number
 //A person's Life Path Number is calculated by adding each individual number in that person's date of birth, untill it is reduced to a single digit number.
-
+function lifePathNumber(dateOfBirth) {
+  let pathNum = dateOfBirth.split('')
+      .map(Number)
+      .filter(Number)
+      .reduce((a, b) => (a + b), 0);
+  if (pathNum.toString().length === 1) {
+      return pathNum
+  }
+  return lifePathNumber(pathNum.toString())
+}
 //Problem #4
 //Form the Largest
+function maxNumber(n){
+  const str = String(n);
+  const array = str.split('');
+  array.sort((a,b) => b - a);
+ const result = array.join('');
+  return parseInt(result);
+  //your code here
+}

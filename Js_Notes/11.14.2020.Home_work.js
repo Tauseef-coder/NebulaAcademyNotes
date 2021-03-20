@@ -102,10 +102,10 @@ let numArray = [9, 12, 3, 0, 8, 50, 101, 8, 4, 15, 3, 2];
 
  //Problem # 7
 //Create another function that adds the numbers in the array that are NOT divisible by 3 and return the total
-let numArray = [9, 12, 3, 0, 8, 50, 101, 8, 4, 15, 3, 2];
+let numArray = [1, 2, 3, [4, 5], 6, [7, 8, 9], [10], 11, 12, 13, [14, 15], [], 17, [18], 19, 20]
  function arrNotByThree(){
      let totoal =[];
-     for (let i =; <AudioParam.lenght ; i++ ){
+     for (let i = ; <AudioParam.lenght ; i++ ){
          if (param[i]% 3 > 0){
              total.push(param[i])
          }

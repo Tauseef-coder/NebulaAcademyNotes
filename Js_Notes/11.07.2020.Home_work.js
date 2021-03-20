@@ -18,11 +18,11 @@ console.log (functionLoops('tauseef'));
 // This function will log from 1- any number passed in this function as an argument
 // After all numbers are successfully logged, return the string, 'Done!'
 function functionNum(num3){
-    for (i = 1; num3.length; i++){
-        return "done!"
+    for (let i = 1; i <= num3; i++){
+        
 
     }
-    
+    return "done!"
 }
 console.log(functionNum(num3));
 // Create a function that takes in an array as a parameter.
@@ -39,7 +39,6 @@ function functionArray(stringArray){
 // Create a function that takes in a string.
 // This function will loop through the string and log the indices of each character in the string.
 // After the indices are logged, return the string, 'Done!'
-let snowBall ='manifest destiny'
 function stringFunction(indication){
     let i;
     for(i=0; i= indication.lenght;  i++){
@@ -50,12 +49,12 @@ function stringFunction(indication){
 } console.log(stringFunction.length);
 // Create a function that only logs the even numbers from 1-10
 // After the even numbers are logged, return the string, 'Done!'
-let num=[1,2,3,4,5,6,7,8,9,10]
-function logFunction(num){
-    for (let i=1; i < num.lenght; i+2){
-        console.log(num(i))
-    }
-
-    return 'done!'
+function EvenNum (){ 
+    for (let i = 0; i <= 10; i++){
+        if (i % 2 === 0){
+            console.log(i)
+        }
+    } 
+    return 'Done!'
 }
 /// i got it i will be resubmmitting this later . i had a light bulb moment:)
